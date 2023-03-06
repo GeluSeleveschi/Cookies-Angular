@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 250px;
+}
+
+.filter {
+    width: 35%;
+    min-width: 130px;
+}
+
+mat-icon {
+    cursor: pointer;
+}
+
+table {
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 650px) {
+    .container {
+        width: 50%;
+        max-width: 600px;
+    }
+}
+
+.edit-action,
+.delete-action {
+    width: 10%;
+}
